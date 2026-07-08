@@ -17,7 +17,7 @@ return {
 				"python",
 				"php",
 				"cpp",
-				"rs",
+				"rust",
 				"java",
 				"html",
 			},
