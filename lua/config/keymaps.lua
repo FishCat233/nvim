@@ -17,6 +17,11 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 keymap.set("n", "<leader>sv", "<C-w>v")
 keymap.set("n", "<leader>sh", "<C-w>s")
 
+-- ============ 通用 ============
+keymap.set("n", "<C-a>", "ggVG", { desc = "Select all lines." })
+keymap.set("v", "<C-a>", "ggVG", { desc = "Select all lines." })
+keymap.set("i", "<C-a>", "ggVG", { desc = "Select all lines." })
+
 -- 取消高亮
 -- keymap.set("n", "<leader>nh", ":nohl<CR>"
 
