@@ -46,4 +46,4 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 
 -- vim.cmd[[colorscheme tokyonight-storm]]
-vim.cmd.colorscheme = "catppuccin-frappe"
+vim.cmd.colorscheme = "catppuccin-latte"
