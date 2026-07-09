@@ -38,7 +38,7 @@ nvim
 
 ## 目录结构
 
-```
+```plain
 ~/.config/nvim/
 ├── init.lua                  # 入口
 ├── lazyvim.json              # LazyVim extras 声明
