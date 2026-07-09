@@ -16,6 +16,7 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- 窗口
 keymap.set("n", "<leader>sv", "<C-w>v")
 keymap.set("n", "<leader>sh", "<C-w>s")
+keymap.set("n", "<leader>fl", ":Telescope live_grep<CR>", { desc = "Find Files (Live Grep)" })
 
 -- ============ 通用 ============
 keymap.set("n", "<C-a>", "ggVG", { desc = "Select all lines." })
